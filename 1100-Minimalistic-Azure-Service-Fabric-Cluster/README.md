@@ -1,6 +1,8 @@
 # Deploy a minimalistic Azure Service Fabric Cluster
 
-#### Note: This template is not suitable for production use. You may use as base template and productionise it.
+#### Note: This template is not suitable for production use. You may use as an initial starting template for production use.
+
+This template creates a minimalist Service Fabric Cluster, ideal for learning, testing and blogging purposes. The template is not ideal for production use.
 
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fnilayparikh%2FAzureTemplates%2Fmaster%2F1100-Minimalistic-Azure-Service-Fabric-Cluster%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
