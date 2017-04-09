@@ -1,16 +1,17 @@
-# Deploy a minimalistic Azure Service Fabric Cluster (for Test and Learn)
+# Deploy a minimalistic Azure Service Fabric Cluster
 
-```
+#### Note: This template is not suitable for production use. You may use as base template and productionise it.
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2F101-availability-set-create-3FDs-20UDs%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fnilayparikh%2FAzureTemplates%2Fmaster%2F1100-Minimalistic-Azure-Service-Fabric-Cluster%2FServiceFabricCluster.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2F101-availability-set-create-3FDs-20UDs%2Fazuredeploy.json" target="_blank">
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fnilayparikh%2FAzureTemplates%2Fmaster%2F1100-Minimalistic-Azure-Service-Fabric-Cluster%2FServiceFabricCluster.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
 ## Parameters
 
+``` json
 {
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
@@ -71,3 +72,20 @@
   }
 }
 ```
+
+Copyright (c) 2017 Nilay Parikh
+Modifications Copyright (c) 2017 Nilay Parikh
+B: https://blog.nilayparikh.com E: me@nilayparikh.com G: https://github.com/nilayparikh/
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
