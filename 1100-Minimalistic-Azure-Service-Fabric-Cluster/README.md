@@ -74,7 +74,9 @@
 ```
 
 Copyright (c) 2017 Nilay Parikh
+
 Modifications Copyright (c) 2017 Nilay Parikh
+
 B: https://blog.nilayparikh.com E: me@nilayparikh.com G: https://github.com/nilayparikh/
 
 This program is free software: you can redistribute it and/or modify
