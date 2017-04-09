@@ -4,12 +4,27 @@
 
 This template creates a minimalist Service Fabric Cluster, ideal for learning, testing and blogging purposes. The template is not ideal for production use.
 
+## Deployment
+
+### Using Azure Portal
+
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fnilayparikh%2FAzureTemplates%2Fmaster%2F1100-Minimalistic-Azure-Service-Fabric-Cluster%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 <a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fnilayparikh%2FAzureTemplates%2Fmaster%2F1100-Minimalistic-Azure-Service-Fabric-Cluster%2Fazuredeploy.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
+
+### Using PowerShell
+
+You can also deploy the resource management template using `Deploy-AzureResourceGroup.ps1`.
+
+``` powershell
+.\Deploy-AzureResourceGroup.ps1 -ResourceGroupLocation "ResourceGroupLocation" –ResourceGroupName "ResourceGroupName"
+```
+
+For more option read `Deploy-AzureResourceGroup.ps1`.
+
 
 ## Parameters
 
