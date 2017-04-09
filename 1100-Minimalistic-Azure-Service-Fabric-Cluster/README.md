@@ -2,10 +2,10 @@
 
 #### Note: This template is not suitable for production use. You may use as base template and productionise it.
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fnilayparikh%2FAzureTemplates%2Fmaster%2F1100-Minimalistic-Azure-Service-Fabric-Cluster%2FServiceFabricCluster.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fnilayparikh%2FAzureTemplates%2Fmaster%2F1100-Minimalistic-Azure-Service-Fabric-Cluster%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fnilayparikh%2FAzureTemplates%2Fmaster%2F1100-Minimalistic-Azure-Service-Fabric-Cluster%2FServiceFabricCluster.json" target="_blank">
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fnilayparikh%2FAzureTemplates%2Fmaster%2F1100-Minimalistic-Azure-Service-Fabric-Cluster%2Fazuredeploy.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
@@ -16,7 +16,6 @@
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
-    //Admin
     "adminUserName": {
       "value": "admin",
       "metadata": {
@@ -28,10 +27,9 @@
         "keyVault": {
           "id": "/subscriptions/00000000-0000-0000-000000000000/resourceGroups/xxxxxxxxxxxxxxx/providers/Microsoft.KeyVault/vaults/xxxxxxxxxxxxx"
         },
-        "secretName": "###" /*Refer secret name storing password securely*/
+        "secretName": "###"
       }
     },
-    //VM
     "vmCount": {
       "value": 3,
       "metadata": {
@@ -50,9 +48,8 @@
         "description": "VM Tier, refer https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-sizes."
       }
     },
-    //Key Vault - Node to Node
     "certificateThumbprint": {
-      "value": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", //Thumbprint of the certificate
+      "value": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             "metadata": {
         "description": "Certificate thumbprint - for Node to Node configuration."
       }
