@@ -1,7 +1,7 @@
 {
-  "itemDisplayName": "Deploy a minimalistic Azure Service Fabric Cluster with OMS and Antimalware.",
-  "description": "This template creates a minimalist Service Fabric Cluster with OMS Workspace and Microsoft Antimalware, ideal for learning, testing, blogging and production use.",
-  "summary": "Deploy a minimal viable Service Fabric Cluster with OMS and Antimalware linked to a GitHub repository.",
+  "itemDisplayName": "Deploy a minimalistic Azure Service Fabric Cluster with Microsoft Monitoring Agent.",
+  "description": "This template creates a minimalist Service Fabric Cluster with Microsoft Monitoring Agent, ideal for learning, testing, blogging and production use.",
+  "summary": "Deploy a minimal viable Service Fabric Cluster with  Microsoft Monitoring Agent linked to a GitHub repository.",
   "githubUsername": "nilayparikh",
   "dateUpdated": "2017-04-16"
 }
